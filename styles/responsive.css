@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-html,
+
+
+
+@media only screen and (max-width: 480px) {
+
+    html,
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -10,12 +15,81 @@ body {
 }
 
 
-
-/* media query for mobile device */
-
-@media only screen and (max-width: 688px) {
     .top-container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    /* .top-banner-text h1 {
+        margin-top: 112px;
+        margin-right: 66px;
+        margin-left: 16px;
+        margin-bottom: 124px;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    } */
+
+    .top-banner-text h1 {
+        margin-top: 112px;
+        margin-right: 66px;
+        margin-left: 16px;
+        margin-bottom: 124px;
+        width: 278px;
+        height: 138px;
+    }
+
+    .top-banner-picture img {
+        position: absolute;
+        width: 329px;
+        height: 259.17px;
+        left: 300px;
+        top: 374px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 330px);
+        grid-column-gap: 80px;
+    }
+
+    .all-highlights-article>h1 {
+        margin-right: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .all-highlights-article>p {
+        margin-right: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .why-not-center {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: -207px;
+    } */
+
+
+    .all-highlights-picture img {
+        /* width: 488px; */
+        /* height: 343px; */
+        width: 328px;
+        height: 248px;
+        left: 16px;
+        top: 7082px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .top-container {
+        justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    .top-banner-text h1 {
+        font-size: 37px;
     }
 
     .top-banner-picture img {
@@ -25,15 +99,32 @@ body {
         margin-top: 53px;
     }
 
-    .all-highlights-container>h1 {
+    .all-highlights-article>h1 {
         margin-right: 20px;
         width: 100%;
         text-align: center;
     }
 
-    .all-highlights-container>p {
+    .all-highlights-article>p {
         margin-right: 20px;
         width: 100%;
         text-align: center;
+    }
+
+    /* .why-not-center {
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            margin-top: -187px;
+        } */
+
+    .all-highlights-article img {
+        /* width: 488px; */
+        /* height: 343px; */
+        /* position: absolute; */
+        width: 328px;
+        height: 248px;
+        left: 16px;
+        top: 7082px;
     }
 }
