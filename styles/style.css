@@ -40,11 +40,6 @@ body {
     margin-bottom: 169px;
 }
 
-
-
-
-
-
 .top-banner-text h1:hover {
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
@@ -76,11 +71,6 @@ body {
     }
 }
 
-
-
-
-
-
 .top-banner-text a {
     padding: 10px 24px;
     background-color: #E02C6D;
@@ -98,7 +88,7 @@ body {
     background-color: white;
     color: #E02C6D;
     font-weight: 700;
-    font-size: 32px;
+    /* font-size: 32px; */
 }
 
 .top-banner-picture img {
@@ -137,7 +127,6 @@ body {
     grid-row-gap: 27px;
     grid-column-gap: 30px;
     align-items: center;
-
 }
 
 .blogs {
@@ -149,16 +138,21 @@ body {
 
 .blogs:hover {
     background-color: lightcyan;
-
 }
 
 .blog {
     padding: 15px;
+    overflow: hidden;
 }
 
 .blog img {
     width: 300px;
     height: 256px;
+}
+
+.blog img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
 }
 
 .blog h3,
@@ -188,8 +182,6 @@ p {
     align-items: center;
     margin-top: 44px;
     margin-right: 66px;
-
-
 }
 
 .all-highlights-article p {
@@ -203,7 +195,6 @@ p {
     color: #0A0826;
     width: 469px;
     height: 80px;
-
     transition: transform 1s ease-out;
 }
 
@@ -216,7 +207,6 @@ p {
     padding-top: 8px;
     padding-bottom: 150px;
     width: 404px;
-
     transition: transform 1s ease-out;
 }
 
@@ -229,8 +219,6 @@ p {
     background: #e02c6d;
     color: white;
     text-decoration: none;
-
-
 }
 
 .all-highlights-article a:hover {
