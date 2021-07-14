@@ -232,6 +232,58 @@ p {
     transform: scale(1.1);
 }
 
+
+
+
+/*starting of table*/
+
+.table-div table {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: rgba(62, 81, 255, 0.534);
+  color: rgb(0, 0, 0);
+  transition: all 1s ease-in-out;
+}
+
+.table-heading {
+  text-align: center;
+  text-decoration: none;
+  color: orangered;
+  margin-top: 100px;
+  display: block;
+  transition: all 1s ease-in-out;
+}
+
+.sell-color {
+  text-align: center;
+}
+
+.sell-color td {
+  color: black;
+}
+.sell-color:hover td {
+  color: white;
+}
+
+table .column {
+  border-bottom: 1px solid #ffffff;
+}
+
+.sell-color:hover {
+  background-color: #ff7b21;
+  color: white;
+}
+
+/*ending of table*/
+
 /* Starting Footer */
 .footer {
     margin-top: 200px;
