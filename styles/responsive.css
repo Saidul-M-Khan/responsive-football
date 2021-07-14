@@ -196,6 +196,22 @@
     }
 /* Ending of All Highlights Section */
 
+/*starting of table*/
+
+.table-heading {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    display: block;
+    transition: all 1s ease-in-out;
+  }
+
+.table-div table {
+    position: relative;
+    top: 200px;
+  }
+/*ending of table*/
+
 /* Starting Footer */
     .footer {
         margin-top: 54.57px;
