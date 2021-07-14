@@ -1,46 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-
+/* Media queries   for mobile  device */
 
 @media only screen and (max-width: 480px) {
+
 
     html,
     body {
         font-family: 'Poppins', sans-serif;
-        background-color: #F3F1FF;
+        background-color: #ffffff;
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-
+/* Starting of Top Banner */
     .top-container {
         flex-direction: column;
         justify-content: space-around;
+        padding-bottom: 60%;
     }
 
-    /* .top-banner-text h1 {
-        margin-top: 112px;
-        margin-right: 66px;
-        margin-left: 16px;
-        margin-bottom: 124px;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 50px;
-    } */
-
     .top-banner h1 {
-        /* margin-top: 112px;
-        margin-right: 66px;
-        margin-left: 16px;
-        margin-bottom: 124px; */
         position: relative;
         padding-right: 25px;
-        bottom: 200px;
-        right: 100px;
+        bottom: 150px;
+        right: -20px;
         width: 278px;
         height: 138px;
+    }
+
+    .top-banner-text {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 169px;
+        margin-top: 207px;
     }
 
     .top-banner-text a {
@@ -55,23 +50,15 @@
         line-height: 24px;
         margin: 0px 8px;
         position: relative;
-        right: 110px;
-        bottom: 40px;
+        right: -10px;
+        bottom: -10px;
     }
 
     .top-banner-text a:hover {
         background-color: white;
         color: #E02C6D;
         font-weight: 700;
-        /* font-size: 32px; */
     }
-
-    /* .top-banner h1{
-        margin-top: 112px;
-        margin-right: 66px;
-        margin-left: 16px;
-        margin-bottom: 124px;
-    } */
 
     .top-banner-picture {
         width: 0px;
@@ -80,10 +67,10 @@
 
     .top-banner-picture img {
         position: relative;
-        width: 300px;
-        height: 180px;
-        left: 10%;
-        top: -80px;
+        width: 329px;
+        height: 259.17px;
+        left: 60px;
+        top: -50px;
         pointer-events: none;
 
         transform: translateY(20px) scale(1.15);
@@ -94,9 +81,12 @@
     .top-container:hover .top-banner-picture img {
         transform: translateY(0) scale(1.2);
     }
+/* Ending of Top Banner */
 
+/* Starting of Blog Section */
     .blog-section {
-        margin-bottom: 47px;
+        margin-top: 47px;
+        margin-bottom: 60px;
     }
 
     .blog-container {
@@ -110,6 +100,8 @@
     .blogs {
         width: 330px;
         height: 456px;
+        margin-left: 15px;
+        margin-right: 15px;
         background: #FFFFFF;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
@@ -138,101 +130,102 @@
         width: 100%;
         height: 100%;
     }
+/* Ending of Blog Section */
+
+/* Starting of All Highlights Section */
+    .all-highlights-section {
+        margin-top: 60px;
+    }
+
+    .all-highlights-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .all-highlights-article>h1 {
-        margin-right: 20px;
-        width: 100%;
-        text-align: center;
+        position: relative;
+        bottom: 155px;
+        width: 220px;
+        height: 80px;
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    .all-highlights-section:hover h1 {
+        transform: translate(-50px);
     }
 
     .all-highlights-article>p {
-        margin-right: 20px;
-        width: 100%;
-        text-align: center;
+        width: 329px;
+        height: 100px;
+        text-align: left;
+        position: relative;
+        top: 25px;
     }
 
-    /* .why-not-center {
-        width: 100%;
-        justify-content: center;
-        display: flex;
-        margin-top: -207px;
-    } */
+    .all-highlights-section:hover p {
+        transform: translate(50px);
+    }
+
+
+    .all-highlights-article a {
+        padding: 10px 24px;
+        width: 173px;
+        height: 44px;
+        background: #e02c6d;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 30px;
+    }
+
+    .all-highlights-article a:hover {
+        background-color: orangered;
+        color: black;
+        font-weight: 700;
+        font-size: 32px;
+    }
 
 
     .all-highlights-picture img {
-        /* width: 488px; */
-        /* height: 343px; */
         width: 328px;
         height: 248px;
-        left: 16px;
-        top: 7082px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-
-    html,
-    body {
-        font-family: 'Poppins', sans-serif;
-        background-color: #F3F1FF;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .top-container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    .top-banner-text {
-        margin-top: 0;
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 0;
         position: relative;
-        left: 100px;
+        left: -45px;
+        top: 230px;
+    }
+/* Ending of All Highlights Section */
+
+/* Starting Footer */
+    .footer {
+        margin-top: 54.57px;
+        position: relative;
+        top: 225px;
     }
 
-    .top-banner-text h1 {
-        font-size: 37px;
+    .footer img {
+        width: 150px;
+        height: 63px;
+        display: block;
+        margin: 0 auto;
     }
 
-    .top-banner-picture img {
-        width: 356.01px;
-        height: 318px;
-        margin-left: -28px;
-        margin-top: 53px;
-    }
-
-    .all-highlights-article>h1 {
-        margin-right: 20px;
-        width: 100%;
+    .footer div {
         text-align: center;
+        margin: 14px;
     }
 
-    .all-highlights-article>p {
-        margin-right: 20px;
-        width: 100%;
-        text-align: center;
+    .fa-instagram,
+    .fa-futbol,
+    .fa-twitter,
+    .fa-youtube {
+        padding: 10px;
+        border-radius: 50px;
+        margin: 0px 14px;
+        background-color: #E7E7E8;
+        color: #969BAB;
+        opacity: 1;
     }
-
-    /* .why-not-center {
-            width: 100%;
-            justify-content: center;
-            display: flex;
-            margin-top: -187px;
-        } */
-
-    .all-highlights-article img {
-        /* width: 488px; */
-        /* height: 343px; */
-        /* position: absolute; */
-        width: 328px;
-        height: 248px;
-        left: 16px;
-        top: 7082px;
-    }
+    /* Ending of footer */
 }
