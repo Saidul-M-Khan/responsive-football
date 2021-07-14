@@ -9,10 +9,6 @@ body {
     padding: 0;
 }
 
-/* Starting of Header  */
-
-/* Ending of Header */
-
 /* Starting of Top Banner */
 .top-banner h1 {
     font-weight: 700;
@@ -88,12 +84,11 @@ body {
     background-color: white;
     color: #E02C6D;
     font-weight: 700;
-    /* font-size: 32px; */
 }
 
 .top-banner-picture img {
     position: relative;
-    top:  180px;
+    top: 180px;
     right: 200px;
     width: 556.01px;
     height: 438px;
