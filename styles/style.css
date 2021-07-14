@@ -214,8 +214,8 @@ p {
 }
 
 .all-highlights-article a:hover {
-    background-color: white;
-    color: #E02C6D;
+    background-color: orangered;
+    color: black;
     font-weight: 700;
     font-size: 32px;
 }
